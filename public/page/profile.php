@@ -1,4 +1,89 @@
-<div class="container" style="display: flex;">
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>USER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <style>
+        ul li{
+            /* width: 100%; */
+            text-align: left;
+        }
+        ul li a{
+           color: black;
+          
+        }
+   
+
+        .data-v-ed45279a {
+            margin-right: 5px;
+        }
+
+      
+      
+        .heading img {
+            margin-top: 20px;
+            height: 58px;
+            cursor: pointer;
+        }
+
+        .phone {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        button.btn-primary {
+            margin: 5px 10px;
+            font-size: 16px;
+        }
+
+        .price {
+            font-size: 16px;
+        }
+
+        a.card-link-product {
+            font-size: 14px;
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        a.card-link-product:hover {
+            color: red;
+        }
+
+        tbody .text-title {
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        tbody .text-dsc {
+            width: 250px;
+            font-size: 12px;
+        }
+
+        tbody .price {
+            font-size: 14px;
+        }
+
+        tbody button.btn-primary {
+            font-size: 14px;
+            cursor: pointer;
+        } */
+    </style>
+</head>
+
+<body>
+   <?php include '../includes/navbar.php' ?>
+   <br>
+   <br>
+   <br>
+        
+    <div class="container" style="display: flex;">
         <article class="text-center"
             style="background-color: rgb(255, 254, 254); border: 1px solid rgb(220, 217, 217);  padding: 0; margin-right: 50px; border-radius: 5px">
             <!-- User Profile -->
@@ -59,7 +144,7 @@
                                 class="form-control">
                             <br>
                             <div class="form-button text-center">
-                                <button type="submit" class="btn btn-primary ">Lưu thay đổi</button>
+                                <button type="submit" class="btn btn-success ">Lưu thay đổi</button>
                             </div>
                         </div>
                     </div>
@@ -253,3 +338,11 @@
             </div>
         </aside>
     </div>
+    <?php include '../includes/footer.php'; ?>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>d
